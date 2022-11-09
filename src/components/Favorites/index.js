@@ -5,8 +5,8 @@ export default function Favorites() {
   const favorites = config.favorites
   return (
     <StyledFavorites>
-      <h2>Favoritos</h2>
       <section className="favoritos">
+        <h2>Favoritos</h2>
         <div className="items-container">
           {favorites.map((profile) => {
             return (
