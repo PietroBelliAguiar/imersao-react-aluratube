@@ -4,17 +4,18 @@ import Menu from '../src/components/Menu';
 import Header from '../src/components/Header';
 import Timeline from '../src/components/Timeline';
 import Favorites from '../src/components/Favorites';
+import { useState } from 'react';
 
 export default function HomePage() {
-  // const homePageStyles = {backgroundColor: "red"}
+  const [valorDoFiltro, setValorDoFiltro] = useState()
 
   return (
     <>
       <CSSReset />
       <div>
-        <Menu />
+        <Menu valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
         <Header />
-        <Timeline playlists={config.playlists} />
+        <Timeline searchValue={valorDoFiltro} playlists={config.playlists} />
         <Favorites />
       </div>
     </>

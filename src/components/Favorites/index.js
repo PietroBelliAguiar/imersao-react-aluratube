@@ -10,7 +10,7 @@ export default function Favorites() {
         <div className="items-container">
           {favorites.map((profile) => {
             return (
-              <a href={`https://youtube.com/c/${profile.username}"`} target="_blank">
+              <a key={profile.username} href={`https://youtube.com/c/${profile.username}"`} target="_blank">
                 <img src={profile.photo} />
                 <span>@{profile.username}</span>
               </a>

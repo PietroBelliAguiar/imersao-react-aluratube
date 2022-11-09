@@ -13,13 +13,14 @@ export const StyledHeader = styled.div`
     width: 100%;
     padding: 16px 32px;
   }
+`;
 
-  .banner-holder{
+export const Banner = styled.div`
     margin-top: 50px;
     width: 100%;
-    height: 350px;
+    height: 230px;
+    background-image: url(${(props) => props.bgImg});
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-  }
-`;
+`
