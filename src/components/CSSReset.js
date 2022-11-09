@@ -3,6 +3,7 @@ import { createGlobalStyle } from "styled-components";
 export const CSSReset = createGlobalStyle`
   /* Reset */
   * {
+    width: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;

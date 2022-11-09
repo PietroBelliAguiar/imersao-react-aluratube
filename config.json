@@ -2,6 +2,16 @@
   "name": "Pietro Belli",
   "job": "Desenvolvedor React Jr",
   "github": "PietroBelliAguiar",
+  "favorites": [
+    {
+      "username": "guidocerqueira",
+      "photo": "https://yt3.ggpht.com/jMZTV3ysPCBQh2ez_27XYB1UlNULBBrFP24DtDqdhgdxBeczpFg9rVG0tz8ksUsRfRbvsFOP=s88-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "username": "DevSoutinho",
+      "photo": "https://yt3.ggpht.com/m8Yrqf0Y81L4mZ1Cq7rGnJ4NDHe6729rxiFZvWyy9-xd_Z7Osmza7J8NWpN1axMHcCb1oKJNgA=s88-c-k-c0x00ffffff-no-rj"
+    }
+  ],
   "playlists": {
     "games": [
       {
