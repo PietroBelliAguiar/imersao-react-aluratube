@@ -1,5 +1,4 @@
 import config from '../config.json';
-import { CSSReset } from '../src/components/CSSReset';
 import Menu from '../src/components/Menu';
 import Header from '../src/components/Header';
 import Timeline from '../src/components/Timeline';
@@ -11,7 +10,6 @@ export default function HomePage() {
 
   return (
     <>
-      <CSSReset />
       <div>
         <Menu valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
         <Header />

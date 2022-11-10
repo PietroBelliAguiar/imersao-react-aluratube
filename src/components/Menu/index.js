@@ -1,13 +1,13 @@
+import DarkModeSwitch from "./components/DarkModeSwitch";
 import Search from "./components/Search";
 import { StyledMenu } from "./styles";
 
 export default function Menu({ valorDoFiltro, setValorDoFiltro }) {
   return (
     <StyledMenu>
-      <div>
-        <Logo />
-      </div>
+      <Logo />
       <Search valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
+      <DarkModeSwitch />
     </StyledMenu>
   );
 }

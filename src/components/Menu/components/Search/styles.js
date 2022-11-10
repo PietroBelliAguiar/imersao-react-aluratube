@@ -6,7 +6,7 @@ export const StyledSearch = styled.div`
   border: 1px solid ${({ theme }) => theme.borderBase};
   max-width: 425px;
   width: 100%;
-  border-radius: 2px;
+  border-radius: 18px;
   overflow: hidden;
 
   input {
