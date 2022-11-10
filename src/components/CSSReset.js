@@ -7,11 +7,26 @@ export const CSSReset = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    ::-webkit-scrollbar{
+        background: transparent;
+        height: 10px;
+        width: 10px;
+      }
+      ::-webkit-scrollbar-thumb{
+        border-radius: 10px;
+        background: ${({ theme }) => theme.borderBase};
+      }
+      ::-webkit-scrollbar-corner{
+        border-radius: 10px;
+        background: lightgray;
+      }
   }
   body {
     font-family: sans-serif;
     background-color: ${({ theme }) => theme.backgroundBase};
     color: ${({ theme }) => theme.textColorBase};
+    overflow: overlay;
+
   }
   /* NextJS */
   html {

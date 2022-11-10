@@ -29,8 +29,9 @@ export const StyledTimeline = styled.div`
       grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
       grid-auto-flow: column;
       grid-auto-columns: minmax(200px,1fr);
-      overflow-x: auto;
+      overflow-x: overlay;
       scroll-snap-type: x mandatory;
+      padding-bottom: 8px;
       a {
         scroll-snap-align: start;
         span {
